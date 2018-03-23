@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/my",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "weiWall",
+    "navigationBarBackgroundColor": "#69c3aa",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "backgroundColor": "#fff3ff",
+    "selectedColor": "#69C3AA",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/shouye1.png",
+        "selectedIconPath": "images/shouye.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "活动",
+        "iconPath": "images/huodong1.png",
+        "selectedIconPath": "images/huodong.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "购物车",
+        "iconPath": "images/car1.png",
+        "selectedIconPath": "images/car.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "images/wode1.png",
+        "selectedIconPath": "images/wode.png"
+      }
+    ]
+  }
+}

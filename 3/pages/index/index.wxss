@@ -1,0 +1,142 @@
+.container_ {
+  background-color: #dadada;
+}
+.swiper-image image {
+  width: 400px;
+  height: 150px;
+}
+.classify {
+  background-color: #fff;
+  height: 330rpx;
+  /*align-items: center; 上下居中 */
+  text-align: center;
+  border: 1rpx solid violet;
+}
+.classify_1 {
+  display: flex;
+  flex-direction: row;
+}
+.classify_2 {
+  height: 160rpx;
+  width: 25%;
+  margin-top: 2rpx;
+  font-size: 26rpx;
+  /*border: 1rpx solid red;*/
+}
+.classify_i image {
+  margin-top: 10rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+/*新品预售*/
+.show_w {
+  background-color: #fff;
+  margin-top: 20rpx;
+  height: 480rpx;
+  /*border: 1rpx solid rebeccapurple;*/
+}
+.show_ {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border-bottom: 0.8rpx solid #dadada;
+}
+.show_title {
+  display: flex;
+  align-items: center;
+  margin-left: 20rpx;
+  font-size: 34rpx;
+  font-weight: bolder;
+  color: #66cc00;
+  height: 70rpx;
+}
+.show_gd {
+  display: block;
+  align-items: center;
+  width: 120rpx;
+  font-size: 32rpx;
+  color: silver;
+  position: absolute;
+  right: 20rpx;
+  height: 70rpx;
+}
+.show_product {
+  margin-top: 2rpx;
+}
+.show_p_ {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+}
+.show_p1 {
+  width: 33%;
+  height: 410rpx;
+  /*border: 1rpx solid red;*/
+}
+.show_pw {
+  background-size: 100% 100%;
+  height: 280rpx;
+  /*border: 1rpx solid black;*/
+}
+.show_p image{
+  float: right;
+  width: 100rpx;
+  height: 100rpx;
+}
+.show_font {
+  width: 100%;
+}
+.show_sm {
+  margin-top: 2rpx;
+  margin-left: 10rpx;
+  word-break: break-all;
+  word-wrap:break-word;
+  color: #003333;
+  font-size: 26rpx;
+}
+.show_price {
+  margin-left: 10rpx;
+  font-size: 32rpx;
+  color: red;
+}
+/*热销产品*/
+.hot_sell {
+  margin-top: 20rpx;
+  background-color: #fff;
+  /*border: 1rpx solid red;*/
+}
+.hot_sell_title {
+  height: 70rpx;
+  border-bottom: 0.8rpx solid #dadada;
+}
+.hot_sell_font {
+  display: block;
+  font-weight: bolder;
+  color: #66cc00;
+  font-size: 34rpx;
+  align-items: center;
+  margin-left: 20rpx;
+}
+.hot_sell_c {
+  height: 530rpx;
+  position: relative;
+  /*border: 1rpx solid blue;*/
+}
+.hot_sell_1 {
+  float: left;
+  display: block;
+  height: 520rpx;
+  width: 50%;
+  border-bottom: 2rpx dashed silver;
+  /*border: 1rpx solid #66cc00*/
+}
+.hot_sell_img {
+  width: 100%;
+  height: 410rpx;
+  /*border: 1rpx solid red;*/
+}
+.hot_sell_img image {
+  width: 100%;
+  height: 410rpx;
+}

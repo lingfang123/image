@@ -1,0 +1,85 @@
+<view class='personal_info' style="background-image:url(../../images/bg-a.png)">
+  <view class="photo_wrap">
+    <image src="{{userInfo.avatarUrl}}" class="photo"></image>
+  </view>
+  <view class="nickname">
+		{{userInfo.nickName}}
+	</view>
+  <view class='address'>
+    地址：江西省 赣州市 章贡区...
+  </view>
+</view>
+
+<view class='myorder'>
+  <view class='myorder1'>
+    <view></view>
+    <view class='order_font'>我的订单</view>
+  </view>
+  <view class='row_x'>
+    <view class='row_w'>
+      <view class='row_i'><image src='../../images/daifu.png'></image></view>
+      <view>待付款</view>
+    </view>
+    <view class='row_w'>
+      <view class='row_i'><image src='../../images/daifu.png'></image></view>
+      <view>待发货</view>
+    </view>
+    <view class='row_w'>
+      <view class='row_i'><image src='../../images/daifu.png'></image></view>
+      <view>待收货</view>
+    </view>
+    <view class='row_w'>
+      <view class='row_i'><image src='../../images/daifu.png'></image></view>
+      <view>已完成</view>
+    </view>
+  </view>
+</view>
+<view class='hr'></view>
+
+<view class='menu'>
+    <view class='menu_ul'>
+      <view class='menu_li_1'>
+        <image src='../../images/dizhi.png'></image>
+      </view>
+      <view class='menu_li_2'>地址管理</view>
+      <view class='menu_li_3'>
+        <image src='../../images/icon-arrowdown.png'></image>
+      </view>
+  </view>
+  <view class='menu_ul'>
+      <view class='menu_li_1'>
+        <image src='../../images/juan.png'></image>
+      </view>
+      <view class='menu_li_2'>优惠券</view>
+      <view class='menu_li_3'>
+        <image src='../../images/icon-arrowdown.png'></image>
+      </view>
+  </view>
+  <view class='menu_ul'>
+      <view class='menu_li_1'>
+        <image src='../../images/gou.png'></image>
+      </view>
+      <view class='menu_li_2'>购物车</view>
+      <view class='menu_li_3'>
+        <image src='../../images/icon-arrowdown.png'></image>
+      </view>
+  </view>
+  <view class='menu_ul'>
+      <view class='menu_li_1'>
+        <image src='../../images/shou.png'></image>
+      </view>
+      <view class='menu_li_2'>我的收藏</view>
+      <view class='menu_li_3'>
+        <image src='../../images/icon-arrowdown.png'></image>
+      </view>
+  </view>
+  <view class='menu_ul'>
+      <view class='menu_li_1'>
+        <image src='../../images/zhuji.png'></image>
+      </view>
+      <view class='menu_li_2'>足迹</view>
+      <view class='menu_li_3'>
+        <image src='../../images/icon-arrowdown.png'></image>
+      </view>
+  </view>
+</view>

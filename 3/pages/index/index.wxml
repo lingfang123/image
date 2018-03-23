@@ -1,0 +1,170 @@
+<!--index.wxml-->
+<view class='container_'>
+  <view class="swiper-image">
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}" wx:key="{{*this}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class='classify'>
+    <view class='classify_1'>
+      <view class='classify_2'>
+        <view class='classify_i'><image src='../../images/ic_index_tab_share.png'/></view>
+        <view>男装</view>
+      </view>
+      <view class='classify_2'>
+        <view class='classify_i'><image src='../../images/icon-xingxing.png'/></view>
+        <view>男装</view>
+      </view>
+      <view class='classify_2'>
+        <view class='classify_i'><image src='../../images/icon-qiandao.png'/></view>
+        <view>男装</view>
+      </view>
+      <view class='classify_2'>
+        <view class='classify_i'><image src='../../images/icon-muma.png'/></view>
+        <view>男装</view>
+      </view>
+    </view>
+    <view class='classify_1'>
+      <view class='classify_2'>
+        <view class='classify_i'><image src='../../images/icon-zhanhui.png'/></view>
+        <view>男装</view>
+      </view>
+      <view class='classify_2'>
+        <view class='classify_i'><image src='../../images/icon-fuli.png'/></view>
+        <view>男装</view>
+      </view>
+      <view class='classify_2'>
+        <view class='classify_i'><image src='../../images/icon-qinzi.png'/></view>
+        <view>男装</view>
+      </view>
+      <view class='classify_2'>
+        <view class='classify_i'><image src='../../images/icon-fujin.png'/></view>
+        <view>男装</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='show_w'>
+    <view class='show_'>
+      <view class='show_title'>| 新品预售</view>
+      <view class='show_gd'>更多</view>
+    </view>
+    <view class='show_product'>
+      <view class='show_p_'>
+
+        <view class='show_p1'>
+          <view class='show_pw' style="background-image:url(../../products/p_12.jpg)">
+            <view class='show_p'>
+              <image src='../../images/label_icon.png'></image>
+            </view>
+          </view>
+          <view class='show_font'>
+            <view class='show_sm'>
+              某某某某某某某某某某某某某某产品
+            </view>
+            <view class='show_price'>￥56.39</view>
+          </view>
+        </view>
+
+        <view class='show_p1'>
+          <view class='show_pw' style="background-image:url(../../products/p_1.jpg)">
+            <view class='show_p'>
+              <image src='../../images/label_icon.png'></image>
+            </view>
+          </view>
+          <view class='show_font'>
+            <view class='show_sm'>
+              某某某某某某某某某某某某某某产品
+            </view>
+            <view class='show_price'>￥118.32</view>
+          </view>
+        </view>
+        
+        <view class='show_p1'>
+          <view class='show_pw' style="background-image:url(../../products/p_14.jpg)">
+            <view class='show_p'>
+              <image src='../../images/label_icon.png'></image>
+            </view>
+          </view>
+          <view class='show_font'>
+            <view class='show_sm'>
+              某某某某某某某某某某某某某某产品
+            </view>
+            <view class='show_price'>￥67.92</view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+  <view class='hot_sell'>
+    <view class='hot_sell_title'>
+      <view class='hot_sell_font'>| 热销商品</view>
+    </view>
+
+    <view class='hot_sell_c'>
+      <view class='hot_sell_1'>
+        <view class='hot_sell_2'>
+          <view class='hot_sell_img'>
+            <image src='../../products/p_28.jpg'/>
+          </view>
+          <view>qqqqq</view>
+        </view>
+      </view>
+
+      <view class='hot_sell_1'>
+        <view class='hot_sell_2'>
+          <view class='hot_sell_img'>
+            <image src='../../products/p_29.jpg' />
+          </view>
+          <view>qqqqq</view>
+        </view>
+      </view>
+
+      <view class='hot_sell_1'>
+        <view class='hot_sell_2'>
+          <view class='hot_sell_img'>
+            <image src='../../products/p_26.jpg' />
+          </view>
+          <view>qqqqq</view>
+        </view>
+      </view>
+
+      <view class='hot_sell_1'>
+        <view class='hot_sell_2'>
+          <view class='hot_sell_img'>
+            <image src='../../products/p_34.jpg' />
+          </view>
+          <view>qqqqq</view>
+        </view>
+      </view>
+
+      <view class='hot_sell_1'>
+        <view class='hot_sell_2'>
+          <view class='hot_sell_img'>
+            <image src='../../products/p_16.jpg' />
+          </view>
+          <view>qqqqq</view>
+        </view>
+      </view>
+
+      <view class='hot_sell_1'>
+        <view class='hot_sell_2'>
+          <view class='hot_sell_img'>
+            <image src='../../products/p_17.jpg' />
+          </view>
+          <view>qqqqq</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+</view>
